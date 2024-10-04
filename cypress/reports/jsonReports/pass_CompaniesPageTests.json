@@ -1,0 +1,184 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:34:04.988Z",
+    "end": "2024-08-26T06:34:25.809Z",
+    "duration": 20821,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "720f5b44-09f1-496e-bc29-e677d10c397a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\CompaniesPageTests\\CompaniesPageTests.cy.js",
+      "file": "cypress\\e2e\\Tests\\CompaniesPageTests\\CompaniesPageTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0f7682c9-dbfc-4dc3-a381-537a6668aa93",
+          "title": "Company Page Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should exist add new company button",
+              "fullTitle": "Company Page Tests should exist add new company button",
+              "timedOut": null,
+              "duration": 3278,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_CompaniesPage.default.addNewCompanyBtn();",
+              "err": {},
+              "uuid": "48d4fc81-0e01-495b-8888-c607a627321c",
+              "parentUUID": "0f7682c9-dbfc-4dc3-a381-537a6668aa93",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should can search a Company using Search Filter",
+              "fullTitle": "Company Page Tests should can search a Company using Search Filter",
+              "timedOut": null,
+              "duration": 3098,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_CompaniesPage.default.searchCompanyField(_companyConstants.COMPANY_INFO_SEARCH.COMPANY_NAME);\n_CompaniesPage.default.assertCompanyNameFromGrid(_companyConstants.COMPANY_INFO_SEARCH.COMPANY_NAME);",
+              "err": {},
+              "uuid": "dec3bf06-26a2-4e2d-9593-70d01748ff49",
+              "parentUUID": "0f7682c9-dbfc-4dc3-a381-537a6668aa93",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should can edit a Company using Edit Btn",
+              "fullTitle": "Company Page Tests should can edit a Company using Edit Btn",
+              "timedOut": null,
+              "duration": 3376,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_CompaniesPage.default.searchCompanyField(_companyConstants.COMPANY_INFO_SEARCH.COMPANY_NAME);\n_CompaniesPage.default.assertCompanyNameFromGrid(_companyConstants.COMPANY_INFO_SEARCH.COMPANY_NAME);\n_CompaniesPage.default.clickOnCompanyActionBtn();\n_CompaniesPage.default.clickEditFirstSearchedCompany();",
+              "err": {},
+              "uuid": "dfd3c10e-3a7c-4ab6-871f-5fded2d09526",
+              "parentUUID": "0f7682c9-dbfc-4dc3-a381-537a6668aa93",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should can delete a company only with \"Company\" form/section completed",
+              "fullTitle": "Company Page Tests should can delete a company only with \"Company\" form/section completed",
+              "timedOut": null,
+              "duration": 5515,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_CompaniesPage.default.searchCompanyField(_companyConstants.COMPANY_INFO.COMPANY_NAME);\n_CompaniesPage.default.clickOnCompanyGridToActivateEditBtn(_companyConstants.COMPANY_INFO.COMPANY_ID_NUMBER);\n_CompaniesPage.default.clickEditFirstSearchedCompany();\n_CompaniesPage.default.clickDeleteBtn();\n_CompaniesPage.default.clickYesDeletePopup();\n_CompaniesPage.default.addNewCompanyBtn();",
+              "err": {},
+              "uuid": "79861c3a-5123-47cb-94e2-4e02f1a7a6cf",
+              "parentUUID": "0f7682c9-dbfc-4dc3-a381-537a6668aa93",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should can delete a company with all forms/sections completed",
+              "fullTitle": "Company Page Tests should can delete a company with all forms/sections completed",
+              "timedOut": null,
+              "duration": 5160,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_CompaniesPage.default.searchCompanyField(_companyConstants.COMPANY_INFO.COMPANY_NAME);\n_CompaniesPage.default.clickOnCompanyGridToActivateEditBtn(_companyConstants.COMPANY_INFO.COMPANY_ID_NUMBER);\n_CompaniesPage.default.clickEditFirstSearchedCompany();\n_CompaniesPage.default.clickDeleteBtn();\n_CompaniesPage.default.clickYesDeletePopup();\n_CompaniesPage.default.addNewCompanyBtn();",
+              "err": {},
+              "uuid": "174f7260-e308-4c65-ab1d-3143f546b99e",
+              "parentUUID": "0f7682c9-dbfc-4dc3-a381-537a6668aa93",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "48d4fc81-0e01-495b-8888-c607a627321c",
+            "dec3bf06-26a2-4e2d-9593-70d01748ff49",
+            "dfd3c10e-3a7c-4ab6-871f-5fded2d09526",
+            "79861c3a-5123-47cb-94e2-4e02f1a7a6cf",
+            "174f7260-e308-4c65-ab1d-3143f546b99e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 20427,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

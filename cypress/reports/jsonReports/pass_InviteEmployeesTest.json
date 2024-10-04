@@ -1,0 +1,184 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:37:06.989Z",
+    "end": "2024-08-26T06:37:37.640Z",
+    "duration": 30651,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3afefa50-dc1a-475f-bf39-f1e7ceea7376",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\EmployeesPageTests\\InviteEmployeesTest.cy.js",
+      "file": "cypress\\e2e\\Tests\\EmployeesPageTests\\InviteEmployeesTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0a7936a1-1a22-41cd-96f1-9093d8bb8d72",
+          "title": "Invite employee form Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should move between sections information from invite employee form",
+              "fullTitle": "Invite employee form Tests should move between sections information from invite employee form",
+              "timedOut": null,
+              "duration": 7149,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_InviteEmployees.default.moveBetweenSection();",
+              "err": {},
+              "uuid": "2b92b5b9-c3ff-4dad-8854-56b9bdd4fb06",
+              "parentUUID": "0a7936a1-1a22-41cd-96f1-9093d8bb8d72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should complete Invite employee section and cancel",
+              "fullTitle": "Invite employee form Tests should complete Invite employee section and cancel",
+              "timedOut": null,
+              "duration": 6226,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_InviteEmployees.default.completeInviteEmployees(_employeeConstants.INVITE_EMPLOYEE.FIRST_NAME, _employeeConstants.INVITE_EMPLOYEE.LAST_NAME, _employeeConstants.INVITE_EMPLOYEE.EMAIL_ADDRESS, _employeeConstants.INVITE_EMPLOYEE.COMPANY_BRANCH, _employeeConstants.INVITE_EMPLOYEE.WORKER_CLASS, _employeeConstants.INVITE_EMPLOYEE.LANGUAGE);",
+              "err": {},
+              "uuid": "ffc66814-eeb2-451a-907f-6cdf5730c486",
+              "parentUUID": "0a7936a1-1a22-41cd-96f1-9093d8bb8d72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should complete Create Onboarding link section and cancel",
+              "fullTitle": "Invite employee form Tests should complete Create Onboarding link section and cancel",
+              "timedOut": null,
+              "duration": 5128,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_InviteEmployees.default.completeCreateOnboardingLink(_employeeConstants.INVITE_EMPLOYEE.WORKER_CLASS);",
+              "err": {},
+              "uuid": "67ef39f6-d09d-4427-a21c-a5b4f723dc65",
+              "parentUUID": "0a7936a1-1a22-41cd-96f1-9093d8bb8d72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should complete Active links section and cancel",
+              "fullTitle": "Invite employee form Tests should complete Active links section and cancel",
+              "timedOut": null,
+              "duration": 3788,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_InviteEmployees.default.completeActiveLinks();",
+              "err": {},
+              "uuid": "765e893d-f564-4ef8-a96f-4648d12240ec",
+              "parentUUID": "0a7936a1-1a22-41cd-96f1-9093d8bb8d72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should complete all Invite employee forms and cancel ",
+              "fullTitle": "Invite employee form Tests should complete all Invite employee forms and cancel ",
+              "timedOut": null,
+              "duration": 6024,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_InviteEmployees.default.completeInviteEmployees(_employeeConstants.INVITE_EMPLOYEE.FIRST_NAME, _employeeConstants.INVITE_EMPLOYEE.LAST_NAME, _employeeConstants.INVITE_EMPLOYEE.EMAIL_ADDRESS, _employeeConstants.INVITE_EMPLOYEE.COMPANY_BRANCH, _employeeConstants.INVITE_EMPLOYEE.WORKER_CLASS, _employeeConstants.INVITE_EMPLOYEE.LANGUAGE);\n_InviteEmployees.default.completeCreateOnboardingLink(_employeeConstants.INVITE_EMPLOYEE.WORKER_CLASS);\n_InviteEmployees.default.completeActiveLinks();",
+              "err": {},
+              "uuid": "52a52f7e-75b4-447c-a6f1-93696637a709",
+              "parentUUID": "0a7936a1-1a22-41cd-96f1-9093d8bb8d72",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2b92b5b9-c3ff-4dad-8854-56b9bdd4fb06",
+            "ffc66814-eeb2-451a-907f-6cdf5730c486",
+            "67ef39f6-d09d-4427-a21c-a5b4f723dc65",
+            "765e893d-f564-4ef8-a96f-4648d12240ec",
+            "52a52f7e-75b4-447c-a6f1-93696637a709"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 28315,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

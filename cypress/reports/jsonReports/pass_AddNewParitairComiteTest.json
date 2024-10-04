@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:38:05.071Z",
+    "end": "2024-08-26T06:38:08.137Z",
+    "duration": 3066,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0a9b8af4-68a1-4b28-8ec9-3ea17b0a137e",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\PayrollSettingsPageTests\\ParitairComiteTests\\AddNewParitairComiteTest.cy.js",
+      "file": "cypress\\e2e\\Tests\\PayrollSettingsPageTests\\ParitairComiteTests\\AddNewParitairComiteTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0ced685c-bfe3-494c-8059-f8857b7644ba",
+          "title": "Add new Paritair Comite form Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should be visible Add new paritair comite button",
+              "fullTitle": "Add new Paritair Comite form Test should be visible Add new paritair comite button",
+              "timedOut": null,
+              "duration": 3009,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AddNewParitairComite.default.addNewParitairComiteBtn();",
+              "err": {},
+              "uuid": "042c981c-db00-4b3d-a89c-fb01194a5b41",
+              "parentUUID": "0ced685c-bfe3-494c-8059-f8857b7644ba",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "042c981c-db00-4b3d-a89c-fb01194a5b41"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3009,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

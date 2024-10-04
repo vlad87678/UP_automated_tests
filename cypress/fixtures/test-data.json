@@ -1,0 +1,7 @@
+{
+   "api": {
+    "upSuperAdmin": "https://test.up.expertnetwork.ro:32001/",
+    "UPortalLogin": "https://api.test.up.expertnetwork.ro:32002/Auth/login",
+    "getErrorAPI": "/ApiError/GetErrors"
+    }
+}

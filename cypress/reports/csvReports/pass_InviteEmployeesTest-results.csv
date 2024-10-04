@@ -1,0 +1,6 @@
+Test Name,Pass/Fail,Error Message
+should move between sections information from invite employee form,Pass,N/A
+should complete Invite employee section and cancel,Pass,N/A
+should complete Create Onboarding link section and cancel,Pass,N/A
+should complete Active links section and cancel,Pass,N/A
+should complete all Invite employee forms and cancel ,Pass,N/A

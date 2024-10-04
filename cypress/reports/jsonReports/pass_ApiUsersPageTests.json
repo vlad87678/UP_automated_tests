@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:38:26.835Z",
+    "end": "2024-08-26T06:38:31.042Z",
+    "duration": 4207,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d207096d-987b-4c16-b36a-e5081b80a01a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\UsersPageTests\\ApiUsersTests\\ApiUsersPageTests.cy.js",
+      "file": "cypress\\e2e\\Tests\\UsersPageTests\\ApiUsersTests\\ApiUsersPageTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ee673171-502c-48b3-a2bc-65f4854c2259",
+          "title": "API Users Page Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should go to API users page",
+              "fullTitle": "API Users Page Tests should go to API users page",
+              "timedOut": null,
+              "duration": 4103,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_ApiUsersPage.default.apiUsersBtn();\n_ApiUsersPage.default.assertNewApiUserBtn();",
+              "err": {},
+              "uuid": "2f2cbfb3-182e-4bf7-ba2c-034f992a5bbc",
+              "parentUUID": "ee673171-502c-48b3-a2bc-65f4854c2259",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2f2cbfb3-182e-4bf7-ba2c-034f992a5bbc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4103,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

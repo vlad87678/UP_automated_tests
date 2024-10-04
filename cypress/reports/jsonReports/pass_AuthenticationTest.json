@@ -1,0 +1,184 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:33:09.559Z",
+    "end": "2024-08-26T06:33:23.782Z",
+    "duration": 14223,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "78a68900-73a7-4993-bf3a-941d81375d96",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\AuthenticationPageTests\\AuthenticationTest.cy.js",
+      "file": "cypress\\e2e\\Tests\\AuthenticationPageTests\\AuthenticationTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5519d871-c40a-4fa9-a532-fd9d1b4d9579",
+          "title": "UpdatePro SuperAdmin Authentication",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "logs superAdmin with valid credentials",
+              "fullTitle": "UpdatePro SuperAdmin Authentication logs superAdmin with valid credentials",
+              "timedOut": null,
+              "duration": 6023,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AuthenticationPage.default.loginMethod(email, pass);\n_AuthenticationPage.default.assertDashboardTitleIsVisible();",
+              "err": {},
+              "uuid": "bc232857-276f-4fa5-a9b3-d26b5d861347",
+              "parentUUID": "5519d871-c40a-4fa9-a532-fd9d1b4d9579",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "attempts superAdmin login with invalid email",
+              "fullTitle": "UpdatePro SuperAdmin Authentication attempts superAdmin login with invalid email",
+              "timedOut": null,
+              "duration": 1633,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AuthenticationPage.default.loginMethod(\"invalidemail@mailinator.com\", pass);\n_AuthenticationPage.default.assertWrongEmailOrPasswordValidationMessageIsVisible();",
+              "err": {},
+              "uuid": "635605ac-668e-4178-91f3-5b363445d31d",
+              "parentUUID": "5519d871-c40a-4fa9-a532-fd9d1b4d9579",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "attempts superAdmin login with invalid password",
+              "fullTitle": "UpdatePro SuperAdmin Authentication attempts superAdmin login with invalid password",
+              "timedOut": null,
+              "duration": 1723,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AuthenticationPage.default.loginMethod(email, \"sdasasf\");\n//BUG-GASIT\n//AuthenticationPage.assertWrongEmailOrPasswordValidationMessageIsVisible()",
+              "err": {},
+              "uuid": "ca22c950-7885-41ea-b7a9-74d1ae1935df",
+              "parentUUID": "5519d871-c40a-4fa9-a532-fd9d1b4d9579",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "logs superAdmin after validation",
+              "fullTitle": "UpdatePro SuperAdmin Authentication logs superAdmin after validation",
+              "timedOut": null,
+              "duration": 2371,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AuthenticationPage.default.loginMethod(email, \"Abcd12345\");\n_AuthenticationPage.default.passwordField().focus().clear().type(pass);\n_AuthenticationPage.default.signInButton().click();\n_AuthenticationPage.default.assertDashboardTitleIsVisible();",
+              "err": {},
+              "uuid": "6d113cd7-53c3-4d9e-b7a4-038545bdb3d6",
+              "parentUUID": "5519d871-c40a-4fa9-a532-fd9d1b4d9579",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "logs out SuperAdmin ",
+              "fullTitle": "UpdatePro SuperAdmin Authentication logs out SuperAdmin ",
+              "timedOut": null,
+              "duration": 2228,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AuthenticationPage.default.loginMethod(email, pass);\n_AuthenticationPage.default.logout();",
+              "err": {},
+              "uuid": "ab042ea3-9387-446a-ab98-336d30d9d41e",
+              "parentUUID": "5519d871-c40a-4fa9-a532-fd9d1b4d9579",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bc232857-276f-4fa5-a9b3-d26b5d861347",
+            "635605ac-668e-4178-91f3-5b363445d31d",
+            "ca22c950-7885-41ea-b7a9-74d1ae1935df",
+            "6d113cd7-53c3-4d9e-b7a4-038545bdb3d6",
+            "ab042ea3-9387-446a-ab98-336d30d9d41e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13978,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

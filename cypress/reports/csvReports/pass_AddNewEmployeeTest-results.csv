@@ -1,0 +1,12 @@
+Test Name,Pass/Fail,Error Message
+should move between sections information from add new employee form,Pass,N/A
+should fill out the Personal info and cancel,Pass,N/A
+should fill out the Dependants and cancel,Pass,N/A
+should fill out the  Contact Info and cancel,Pass,N/A
+should fill out the Stay Adress and cancel,Pass,N/A
+should fill out the Working Info and cancel,Pass,N/A
+should fill out the  Permanent employee and cancel,Pass,N/A
+should fill out the Account and cancel,Pass,N/A
+should check GDPR and cancel,Pass,N/A
+should set inactive employee and cancel,Pass,N/A
+should fill out Add new employee form and cancel,Pass,N/A

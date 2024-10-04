@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:35:13.088Z",
+    "end": "2024-08-26T06:35:16.432Z",
+    "duration": 3344,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dd5e711c-bbe2-4d4d-9146-e3abec4ad737",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\DocsPageTests\\DocsPageTests.cy.js",
+      "file": "cypress\\e2e\\Tests\\DocsPageTests\\DocsPageTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0f2fceb6-a690-4b8a-a308-38f5252e3e64",
+          "title": "Docs Page Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should can select company",
+              "fullTitle": "Docs Page Test should can select company",
+              "timedOut": null,
+              "duration": 3296,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_DocsPage.default.selectCompany();",
+              "err": {},
+              "uuid": "44a4bea9-1378-455d-9048-ce1433bf3d2b",
+              "parentUUID": "0f2fceb6-a690-4b8a-a308-38f5252e3e64",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "44a4bea9-1378-455d-9048-ce1433bf3d2b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3296,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

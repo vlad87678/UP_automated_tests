@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:33:37.899Z",
+    "end": "2024-08-26T06:34:03.018Z",
+    "duration": 25119,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "254b780d-04ce-4346-8a4f-00f4b9a8d8e9",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\CompaniesPageTests\\AddNewCompany.cy.js",
+      "file": "cypress\\e2e\\Tests\\CompaniesPageTests\\AddNewCompany.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "8ef7c650-14ea-4e4b-a0fe-8372483d1700",
+          "title": "Add new company form Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should I can complete in all fields to can use save and next button",
+              "fullTitle": "Add new company form Tests should I can complete in all fields to can use save and next button",
+              "timedOut": null,
+              "duration": 9140,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AddNewCompany.default.completeCompanySection(_companyConstants.COMPANY_INFO.COMPANY_NAME, _companyConstants.COMPANY_INFO.COMMERCIAL_NAME, _companyConstants.COMPANY_INFO.STREET_NAME, _companyConstants.COMPANY_INFO.NUMBER, _companyConstants.COMPANY_INFO.BUS_NUMBER, _companyConstants.COMPANY_INFO.CITY, _companyConstants.COMPANY_INFO.POSTAL_CODE, _companyConstants.COMPANY_INFO.COUNTRY, _companyConstants.COMPANY_INFO.COMPANY_ID_NUMBER, _companyConstants.COMPANY_INFO.COMPANY_FORMAT, _companyConstants.COMPANY_INFO.EMAIL_ADDRESS);\n_AddNewCompany.default.activateToggles();\n_AddNewCompany.default.saveAddNewCompanyBtn();",
+              "err": {},
+              "uuid": "323a378a-d7b8-4f9f-86ab-80311af44ed5",
+              "parentUUID": "8ef7c650-14ea-4e4b-a0fe-8372483d1700",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should I can complete all mandatory fields from company section and move between other sections",
+              "fullTitle": "Add new company form Tests should I can complete all mandatory fields from company section and move between other sections",
+              "timedOut": null,
+              "duration": 15829,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_AddNewCompany.default.completeCompanySection(_companyConstants.COMPANY_INFO.COMPANY_NAME, _companyConstants.COMPANY_INFO.COMMERCIAL_NAME, _companyConstants.COMPANY_INFO.STREET_NAME, _companyConstants.COMPANY_INFO.NUMBER, _companyConstants.COMPANY_INFO.BUS_NUMBER, _companyConstants.COMPANY_INFO.CITY, _companyConstants.COMPANY_INFO.POSTAL_CODE, _companyConstants.COMPANY_INFO.COUNTRY, _companyConstants.COMPANY_INFO.COMPANY_ID_NUMBER, _companyConstants.COMPANY_INFO.COMPANY_FORMAT, _companyConstants.COMPANY_INFO.EMAIL_ADDRESS);\n_AddNewCompany.default.saveAddNewCompanyBtn();\n_AddNewCompany.default.assertSectionsVisibility();\n_AddNewCompany.default.moveBetweenSection();",
+              "err": {},
+              "uuid": "4ae91123-b4bc-4dc0-a27d-dde9700bfaa9",
+              "parentUUID": "8ef7c650-14ea-4e4b-a0fe-8372483d1700",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "323a378a-d7b8-4f9f-86ab-80311af44ed5",
+            "4ae91123-b4bc-4dc0-a27d-dde9700bfaa9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 24969,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

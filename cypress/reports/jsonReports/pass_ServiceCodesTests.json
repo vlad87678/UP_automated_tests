@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:38:56.074Z",
+    "end": "2024-08-26T06:39:00.160Z",
+    "duration": 4086,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "707a39b4-45f2-4827-9f17-0960184a9d48",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\PayrollSettingsPageTests\\WageComponentsTests\\ServiceCodesTests\\ServiceCodesTests.cy.js",
+      "file": "cypress\\e2e\\Tests\\PayrollSettingsPageTests\\WageComponentsTests\\ServiceCodesTests\\ServiceCodesTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "34e5ac3f-c1f5-4f21-967d-d5bb87359a45",
+          "title": "Wage Components Page - Service codes Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should can go to componets check if Service codes buttons are visible",
+              "fullTitle": "Wage Components Page - Service codes Test should can go to componets check if Service codes buttons are visible",
+              "timedOut": null,
+              "duration": 4027,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_WageComponentsPage.default.goToWageComponents();\n_ServiceCodesPage.default.gotoSeviceCodes();",
+              "err": {},
+              "uuid": "0522c075-90b1-4e91-a867-4b1f3a83bb89",
+              "parentUUID": "34e5ac3f-c1f5-4f21-967d-d5bb87359a45",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0522c075-90b1-4e91-a867-4b1f3a83bb89"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4027,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

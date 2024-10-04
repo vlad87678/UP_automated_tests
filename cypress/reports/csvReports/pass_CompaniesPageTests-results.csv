@@ -1,0 +1,6 @@
+Test Name,Pass/Fail,Error Message
+should exist add new company button,Pass,N/A
+should can search a Company using Search Filter,Pass,N/A
+should can edit a Company using Edit Btn,Pass,N/A
+should can delete a company only with "Company" form/section completed,Pass,N/A
+should can delete a company with all forms/sections completed,Pass,N/A

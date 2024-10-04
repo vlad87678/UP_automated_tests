@@ -1,0 +1,6 @@
+Test Name,Pass/Fail,Error Message
+logs superAdmin with valid credentials,Pass,N/A
+attempts superAdmin login with invalid email,Pass,N/A
+attempts superAdmin login with invalid password,Pass,N/A
+logs superAdmin after validation,Pass,N/A
+logs out SuperAdmin ,Pass,N/A

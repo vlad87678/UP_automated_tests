@@ -1,0 +1,108 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-08-26T06:38:49.790Z",
+    "end": "2024-08-26T06:38:54.294Z",
+    "duration": 4504,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c2dad188-f5ce-4e55-8813-5c9ab5d79a66",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\PayrollSettingsPageTests\\WageComponentsTests\\CostsDeclarationCodesTests\\CostDeclarationCodesTest.cy.js",
+      "file": "cypress\\e2e\\Tests\\PayrollSettingsPageTests\\WageComponentsTests\\CostsDeclarationCodesTests\\CostDeclarationCodesTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bffa0790-dfa4-44b7-83ca-3503b0b9c362",
+          "title": "Cost declaration codes Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should can go to componets check if can add one new cost delaration",
+              "fullTitle": "Cost declaration codes Test should can go to componets check if can add one new cost delaration",
+              "timedOut": null,
+              "duration": 4343,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_WageComponentsPage.default.goToWageComponents();\n_CostDeclarationCodesPage.default.goToCostDeclarationCodes();\n_CostDeclarationCodesPage.default.checkAddNewCostDeclaratioBtn();",
+              "err": {},
+              "uuid": "77b11069-f5f0-4086-b3b2-4d3ec8cd4cb2",
+              "parentUUID": "bffa0790-dfa4-44b7-83ca-3503b0b9c362",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "77b11069-f5f0-4086-b3b2-4d3ec8cd4cb2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4343,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "[status]_[name]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/jsonReports",
+        "reportFilename": "[status]_[name]",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

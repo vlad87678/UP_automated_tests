@@ -1,0 +1,9 @@
+Test Name,Pass/Fail,Error Message
+should open Dashboard page from SideMenu,Pass,N/A
+should open Companies page from SideMenu,Pass,N/A
+should open Contracts page from SideMenu,Pass,N/A
+should open Employee page from SideMenu,Pass,N/A
+should open Docs page from SideMenu,Pass,N/A
+should open Payroll Settings page from SideMenu,Pass,N/A
+should open Users page from SideMenu,Pass,N/A
+should open Blogs page from SideMenu,Pass,N/A
